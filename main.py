@@ -36,7 +36,7 @@ class Notice:
 
 
 def getMongoClient():
-    return MongoClient('mongodb+srv://yadavashish:Ash9232@dtunotice.lerketq.mongodb.net/?retryWrites=true&w=majority')
+    return MongoClient('mongodb+srv://**')
 
 
 CLIENT = getMongoClient()
@@ -71,7 +71,7 @@ def get_dtu_main(tab_id: TabId):
 def ocr(filename):
     payload = {
         'isOverlayRequired': False,
-        'apikey': 'K86698961688957',
+        'apikey': '**',
         'language': 'eng'
     }
 
