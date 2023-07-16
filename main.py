@@ -116,7 +116,7 @@ def get_summary(content: str):
 
     command = '\nwrite summary for the notice above\n'
 
-    openai.api_key = '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'
+    openai.api_key = '**'
     response = openai.Completion.create(
         model="text-curie-001",
         prompt=f"{content}{command}",
